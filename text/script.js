@@ -27,10 +27,10 @@ function validate() {
             flag = false;
         }
     }
-    var regex = new RegExp("[^\d.]");
-    if (regex.test(document.getElementById("coeffA").value) || 
-    document.getElementById("coeffB").value ||
-    document.getElementById("coeffC").value) {
+    var regex = /^-?[\d\.-]*$/;
+    if (regex.test(document.getElementById("coeffA").value) == false || 
+    regex.test(document.getElementById("coeffB").value) == false ||
+    regex.test(document.getElementById("coeffC").value) == false) {
         flag = false;
     }
     if (flag == true) {
