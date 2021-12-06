@@ -27,7 +27,13 @@ function validate() {
             flag = false;
         }
     }
-    if (flag === true) {
+    var regex = new RegExp("[^\d.]");
+    if (regex.test(document.getElementById("coeffA").value) || 
+    document.getElementById("coeffB").value ||
+    document.getElementById("coeffC").value) {
+        flag = false;
+    }
+    if (flag == true) {
         findRoots(a,b,c);
     }
     else {
