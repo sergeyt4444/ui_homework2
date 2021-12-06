@@ -1,0 +1,14 @@
+h1 {margin: auto; margin-top: 3mm; text-align: center; font-size: 1.75em;}
+.coeffTA {height: 16px; width: 80px;}
+.coeffLabel {height: 16px; width: 40px; }
+#mainDiv {margin: auto; margin-top: 7mm; width: 22cm; height: 100%; border: 0.5mm groove black;}
+#inputDiv {margin: auto; width: 18cm; margin-top: 3mm; padding: 2mm; background: ghostwhite; border: 0.25mm solid black;}
+#expression {margin: auto; width: 18cm; margin-left: 45mm;}
+#submitPoly {margin: auto; display: block; margin-top: 3mm;}
+#results {margin: auto; margin-bottom: 10mm; width: 18cm; height: 100%; display:table; border: 0.25mm groove black;}
+#results td {padding: 2px; height: 25px; border: 1px solid black;}
+#results tr:nth-child(even) {background: #e0e0e0;}
+#results tr > *:nth-child(1) { width:30%; }
+#results tr > *:nth-child(2) { width:60%; }
+#results tr > *:nth-child(3) { width:10%; }
+#results button {background-color: inherit;}

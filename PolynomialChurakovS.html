@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Вычисление корней</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src = "text/script.js"></script>
+</head>
+<body>
+    <h1>Вычисление корней квадратных уравнений</h1>
+    <div id = "mainDiv">
+        <div id = "inputDiv">
+            <div id = "expression">
+                <input id = "coeffA" class = "coeffTA">
+
+                </input>
+                <label id = "label1" class = "coeffLabel">
+                    x<sup>2</sup> + 
+                </label>
+                <input id = "coeffB" class = "coeffTA">
+                
+                </input>
+                <label id = "label2" class = "coeffLabel">
+                    x + 
+                </label>
+                <input id = "coeffC" class = "coeffTA">
+
+                </input>
+                <label id = "label3" class = "coeffLabel">
+                    = 0
+                </label>
+            </div>
+            <button id = "submitPoly" onclick="submit()">
+                Найти корни
+            </button>
+        </div>
+        <table id = "results">
+            <caption><h3>Результаты</h3></caption>
+            <tr>
+                <th>
+                    Уравнение
+                </th>
+                <th>
+                    Решение
+                </th>
+                <th>
+                    Удалить
+                </th>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
